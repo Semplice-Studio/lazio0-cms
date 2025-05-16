@@ -5,7 +5,7 @@ entryTypes:
     uid: 17157e69-97f7-434e-b9ac-e173ed80c0eb # Notices Index
 handle: noticesIndex
 maxAuthors: 1
-name: 'Notices Index'
+name: 'Pagina Lista Concorsi'
 previewTargets:
   -
     __assoc__:

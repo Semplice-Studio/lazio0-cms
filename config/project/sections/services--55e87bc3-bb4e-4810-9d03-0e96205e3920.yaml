@@ -5,7 +5,7 @@ entryTypes:
     uid: 094b8c8b-9851-4c11-8ee8-3ffff533024d # Services
 handle: services
 maxAuthors: 1
-name: Services
+name: Servizi
 previewTargets:
   -
     __assoc__:
@@ -23,7 +23,7 @@ siteSettings:
   bf54d73b-d784-45ae-a6df-5d1677f128a5: # Italiano
     enabledByDefault: true
     hasUrls: true
-    template: services/_entry.twig
+    template: null
     uriFormat: 'serivizi/{slug}'
 structure:
   maxLevels: null

@@ -5,7 +5,7 @@ entryTypes:
     uid: 8170b2e0-58e8-4bb9-8bb2-c84e3bb35960 # Services Index
 handle: servicesIndex
 maxAuthors: 1
-name: 'Services Index'
+name: 'Pagina Lista Servizi'
 previewTargets:
   -
     __assoc__:

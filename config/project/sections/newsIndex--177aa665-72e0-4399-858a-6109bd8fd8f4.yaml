@@ -5,7 +5,7 @@ entryTypes:
     uid: 49a5372e-43f0-42e3-9b6e-b1d4774bd217 # News Index
 handle: newsIndex
 maxAuthors: 1
-name: 'News Index'
+name: 'Pagina Lista News'
 previewTargets:
   -
     __assoc__:

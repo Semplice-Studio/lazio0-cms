@@ -5,7 +5,7 @@ entryTypes:
     uid: f086ff6b-69b9-4817-8107-74543e819862 # Company
 handle: company
 maxAuthors: 1
-name: Company
+name: Azienda
 previewTargets:
   -
     __assoc__:

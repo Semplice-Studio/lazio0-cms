@@ -1,4 +1,63 @@
-dateModified: 1747402407
+dateModified: 1747404204
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: false
+      key: '*'
+      tableAttributes:
+        - status
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: Azienda
+      type: heading
+    -
+      key: 'single:cc3fbd7d-e32f-4ed1-a0c0-d5a027ae3635' # Azienda
+      type: native
+    -
+      heading: 'Bandi, Concorsi e Gare'
+      type: heading
+    -
+      defaultSort:
+        - id
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: 'single:ea1012b5-f48d-48b1-8b4f-ab6fff169cc5' # Pagina Lista Concorsi
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      key: 'section:447ba56b-eaae-491c-b9ca-5b0a9c14667c' # Concorsi
+      type: native
+    -
+      heading: Novità
+      type: heading
+    -
+      key: 'single:177aa665-72e0-4399-858a-6109bd8fd8f4' # Pagina Lista News
+      type: native
+    -
+      key: 'section:0d4941cf-6808-4cc6-83a6-b6ccf2fce854' # News
+      type: native
+    -
+      heading: Servizi
+      type: heading
+    -
+      key: 'single:ece4ffe7-a9d9-4cf9-a40c-aef7fbd7f495' # Pagina Lista Servizi
+      type: native
+    -
+      key: 'section:55e87bc3-bb4e-4810-9d03-0e96205e3920' # Servizi
+      type: native
 email:
   fromEmail: hello@semplice.is
   fromName: Lazio0
@@ -28,13 +87,13 @@ meta:
     8ceda25f-5419-417a-9fcd-9b0beb3c286e: 'Block Highlighted News' # Block Highlighted News
     23bb7944-2e36-4935-a30f-80363dd71549: 'Contact Items' # Contact Items
     49a5372e-43f0-42e3-9b6e-b1d4774bd217: 'News Index' # News Index
-    55e87bc3-bb4e-4810-9d03-0e96205e3920: Services # Services
+    55e87bc3-bb4e-4810-9d03-0e96205e3920: Servizi # Servizi
     59f90dfa-f30d-424d-bf4b-5a56d2ddd6c5: Basic # Basic
     78a716d1-9d68-48ea-88d8-c47f47a1f3d1: 'Block Highlighted Links' # Block Highlighted Links
     094b8c8b-9851-4c11-8ee8-3ffff533024d: Services # Services
-    177aa665-72e0-4399-858a-6109bd8fd8f4: 'News Index' # News Index
+    177aa665-72e0-4399-858a-6109bd8fd8f4: 'Pagina Lista News' # Pagina Lista News
     0282a82e-24c5-44ee-8b5c-309ba22b7351: 'Service Categories' # Service Categories
-    447ba56b-eaae-491c-b9ca-5b0a9c14667c: Notices # Notices
+    447ba56b-eaae-491c-b9ca-5b0a9c14667c: Concorsi # Concorsi
     4124d1d7-3a6b-487e-be89-41e220961814: 'Notice Categories' # Notice Categories
     5951cf5d-d76e-421b-a83d-fb6accf03abb: 'Notice Categories' # Notice Categories
     7171bd95-81e2-4fbe-93ea-742bd6ccfd1b: Tags # Tags
@@ -51,7 +110,7 @@ meta:
     bf54d73b-d784-45ae-a6df-5d1677f128a5: Italiano # Italiano
     c55ee7be-2aa0-43d0-868b-346c941566ac: Notices # Notices
     c470466d-9f78-4cfb-a207-47323188907e: Abstract # Abstract
-    cc3fbd7d-e32f-4ed1-a0c0-d5a027ae3635: Company # Company
+    cc3fbd7d-e32f-4ed1-a0c0-d5a027ae3635: Azienda # Azienda
     cced1acb-d051-4730-96ef-06483ba2f87e: 'Page Blocks' # Page Blocks
     ce59acc5-38bc-446d-aa83-e31494f2d5c3: 'HTML Content' # HTML Content
     cee1eb13-8e85-4034-8a11-240f443b2c7e: 'Button Link' # Button Link
@@ -61,8 +120,8 @@ meta:
     dce6b048-dfeb-4455-8336-b12ea1531052: Complete # Complete
     df15bf77-b7e6-4c9a-82e3-963d87335def: 'News Categories' # News Categories
     e1a68728-c41e-4c75-b77b-a703652d3524: Image # Image
-    ea1012b5-f48d-48b1-8b4f-ab6fff169cc5: 'Notices Index' # Notices Index
-    ece4ffe7-a9d9-4cf9-a40c-aef7fbd7f495: 'Services Index' # Services Index
+    ea1012b5-f48d-48b1-8b4f-ab6fff169cc5: 'Pagina Lista Concorsi' # Pagina Lista Concorsi
+    ece4ffe7-a9d9-4cf9-a40c-aef7fbd7f495: 'Pagina Lista Servizi' # Pagina Lista Servizi
     edd46841-59b8-493b-99cc-4c868dcb8b0f: Tags # Tags
     f086ff6b-69b9-4817-8107-74543e819862: Company # Company
     f18e1447-9bfe-41b6-bb1f-13ead4eff875: 'Public Schema' # Public Schema

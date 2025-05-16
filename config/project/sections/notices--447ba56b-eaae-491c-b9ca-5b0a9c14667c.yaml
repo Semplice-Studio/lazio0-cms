@@ -5,7 +5,7 @@ entryTypes:
     uid: c55ee7be-2aa0-43d0-868b-346c941566ac # Notices
 handle: notices
 maxAuthors: 1
-name: Notices
+name: Concorsi
 previewTargets:
   -
     __assoc__:
