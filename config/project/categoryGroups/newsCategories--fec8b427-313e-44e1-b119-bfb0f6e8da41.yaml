@@ -1,0 +1,50 @@
+defaultPlacement: end
+fieldLayouts:
+  cc4da0e0-9057-4f4c-8e8e-68a3c18aaf36:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-09T13:59:31+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: 54374248-c7c7-472d-a937-e10337000c1a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fbf61167-45d0-4e09-9f84-04209e42f693
+        userCondition: null
+handle: newsCategories
+name: 'News Categories'
+siteSettings:
+  bf54d73b-d784-45ae-a6df-5d1677f128a5: # Italiano
+    hasUrls: true
+    template: news-categories/_category.twig
+    uriFormat: 'news-categories/{slug}'
+structure:
+  maxLevels: 1
+  uid: c470f881-6ec7-4645-b17f-b92750c3cf4f

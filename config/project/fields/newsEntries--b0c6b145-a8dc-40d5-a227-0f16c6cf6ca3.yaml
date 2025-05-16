@@ -1,0 +1,25 @@
+columnSuffix: null
+handle: newsEntries
+instructions: null
+name: 'News Entries'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  defaultPlacement: end
+  maintainHierarchy: false
+  maxRelations: 3
+  minRelations: 1
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: true
+  showUnpermittedEntries: false
+  showUnpermittedSections: false
+  sources:
+    - 'section:0d4941cf-6808-4cc6-83a6-b6ccf2fce854' # News
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Entries

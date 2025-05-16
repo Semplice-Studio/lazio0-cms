@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: f086ff6b-69b9-4817-8107-74543e819862 # Company
+handle: company
+maxAuthors: 1
+name: Company
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  bf54d73b-d784-45ae-a6df-5d1677f128a5: # Italiano
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: __home__
+type: single

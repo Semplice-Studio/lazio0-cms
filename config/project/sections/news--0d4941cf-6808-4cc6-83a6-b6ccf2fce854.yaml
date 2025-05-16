@@ -1,0 +1,31 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: fa3467bc-e23a-4e10-ae1f-c045db992bb3 # News
+handle: news
+maxAuthors: 1
+name: News
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  bf54d73b-d784-45ae-a6df-5d1677f128a5: # Italiano
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: 'novita/{slug}'
+structure:
+  maxLevels: 1
+  uid: 4351e965-60ce-4d97-bd82-ca9b3966fe6e
+type: structure

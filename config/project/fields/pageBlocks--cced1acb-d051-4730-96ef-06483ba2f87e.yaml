@@ -1,0 +1,36 @@
+columnSuffix: null
+handle: pageBlocks
+instructions: null
+name: 'Page Blocks'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 7c069235-fcc1-45ba-9106-c656ffc83ddb # Block Paragraph
+    -
+      __assoc__:
+        -
+          - uid
+          - 94019850-1257-45d7-ae9d-8553ae9caf62 # Block Timeline
+    -
+      __assoc__:
+        -
+          - uid
+          - 41564f99-8920-4bfd-bd10-ba8f55b945c1 # Block Contacts
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

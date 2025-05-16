@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: noticeCategories
+instructions: null
+name: 'Notice Categories'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  defaultPlacement: end
+  maintainHierarchy: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:5951cf5d-d76e-421b-a83d-fb6accf03abb' # Notice Categories
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Categories

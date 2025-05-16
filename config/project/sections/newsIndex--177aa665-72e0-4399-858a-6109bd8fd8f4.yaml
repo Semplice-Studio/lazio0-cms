@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 49a5372e-43f0-42e3-9b6e-b1d4774bd217 # News Index
+handle: newsIndex
+maxAuthors: 1
+name: 'News Index'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  bf54d73b-d784-45ae-a6df-5d1677f128a5: # Italiano
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: novita
+type: single

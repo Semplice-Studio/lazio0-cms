@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: it-IT
+name: Italiano
+primary: true
+siteGroup: 7444c063-9cb4-4535-a38e-df16d0ed40d6 # Lazio0
+sortOrder: 1

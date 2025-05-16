@@ -1,0 +1,31 @@
+columnSuffix: null
+handle: companyBlocks
+instructions: null
+name: 'Company Blocks'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 8ceda25f-5419-417a-9fcd-9b0beb3c286e # Block Highlighted News
+    -
+      __assoc__:
+        -
+          - uid
+          - 78a716d1-9d68-48ea-88d8-c47f47a1f3d1 # Block Highlighted Links
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

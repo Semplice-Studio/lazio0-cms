@@ -1,0 +1,50 @@
+defaultPlacement: end
+fieldLayouts:
+  ce110a08-1fb2-466c-8510-aaf8876acef4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-09T14:18:48+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            uid: ef132db0-402a-4090-b43e-4441918fe6ac
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 732c7cd4-66ff-41ee-9730-894f753f4924
+        userCondition: null
+handle: noticeCategories
+name: 'Notice Categories'
+siteSettings:
+  bf54d73b-d784-45ae-a6df-5d1677f128a5: # Italiano
+    hasUrls: true
+    template: notices-categories/_category.twig
+    uriFormat: 'notices-categories/{slug}'
+structure:
+  maxLevels: 1
+  uid: 561d3942-af7e-44fb-8794-a674fbeefd85

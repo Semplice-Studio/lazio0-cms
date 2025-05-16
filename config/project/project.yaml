@@ -1,0 +1,101 @@
+dateModified: 1747402407
+email:
+  fromEmail: hello@semplice.is
+  fromName: Lazio0
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: Assets
+    settings:
+      path: '@webroot/assets'
+    type: craft\fs\Local
+    url: '@web/assets'
+meta:
+  __names__:
+    0a94301a-456d-413c-97d4-51e67f6e1487: 'Contact Item' # Contact Item
+    0d4941cf-6808-4cc6-83a6-b6ccf2fce854: News # News
+    0fd3605b-bcde-4d0d-8a4f-fb61a0d0df2b: 'Service Categories' # Service Categories
+    2adf50ba-c536-4ed9-a84d-48fab25f5eb4: Simple # Simple
+    2e312ed0-653e-499b-930f-ab172d49032f: 'Link Item' # Link Item
+    2e315768-564c-4ee3-ba1c-711e11c1c0bb: 'Timeline Items' # Timeline Items
+    2f5ad44b-f402-45cb-84c3-2b3e8f56c346: 'Meta Description' # Meta Description
+    3d496bdf-f201-4f39-887e-7528c2f08f89: 'Link Items' # Link Items
+    4cfa7a0a-c70c-48a4-a7d6-4992d0adbea2: 'Og Image' # Og Image
+    5f8a7208-3d98-4188-a70f-56962a1fcb39: 'Company Blocks' # Company Blocks
+    6da9f8fe-2cfa-4562-b68b-cdc3af435bb4: 'Meta Title' # Meta Title
+    7c069235-fcc1-45ba-9106-c656ffc83ddb: 'Block Paragraph' # Block Paragraph
+    8ceda25f-5419-417a-9fcd-9b0beb3c286e: 'Block Highlighted News' # Block Highlighted News
+    23bb7944-2e36-4935-a30f-80363dd71549: 'Contact Items' # Contact Items
+    49a5372e-43f0-42e3-9b6e-b1d4774bd217: 'News Index' # News Index
+    55e87bc3-bb4e-4810-9d03-0e96205e3920: Services # Services
+    59f90dfa-f30d-424d-bf4b-5a56d2ddd6c5: Basic # Basic
+    78a716d1-9d68-48ea-88d8-c47f47a1f3d1: 'Block Highlighted Links' # Block Highlighted Links
+    094b8c8b-9851-4c11-8ee8-3ffff533024d: Services # Services
+    177aa665-72e0-4399-858a-6109bd8fd8f4: 'News Index' # News Index
+    0282a82e-24c5-44ee-8b5c-309ba22b7351: 'Service Categories' # Service Categories
+    447ba56b-eaae-491c-b9ca-5b0a9c14667c: Notices # Notices
+    4124d1d7-3a6b-487e-be89-41e220961814: 'Notice Categories' # Notice Categories
+    5951cf5d-d76e-421b-a83d-fb6accf03abb: 'Notice Categories' # Notice Categories
+    7171bd95-81e2-4fbe-93ea-742bd6ccfd1b: Tags # Tags
+    7444c063-9cb4-4535-a38e-df16d0ed40d6: Lazio0 # Lazio0
+    8170b2e0-58e8-4bb9-8bb2-c84e3bb35960: 'Services Index' # Services Index
+    17157e69-97f7-434e-b9ac-e173ed80c0eb: 'Notices Index' # Notices Index
+    41564f99-8920-4bfd-bd10-ba8f55b945c1: 'Block Contacts' # Block Contacts
+    507733d6-faa2-445a-b851-64a56a799286: 'Timeline Item' # Timeline Item
+    7688362c-b0db-42c5-bbdd-084ffe6d96ec: Assets # Assets
+    94019850-1257-45d7-ae9d-8553ae9caf62: 'Block Timeline' # Block Timeline
+    a26f3fd7-0fc9-4fcb-9d67-6680801ae87f: Textarea # Textarea
+    a414af45-eb1f-409e-b3bd-95e1f8db9485: Boolean # Boolean
+    b0c6b145-a8dc-40d5-a227-0f16c6cf6ca3: 'News Entries' # News Entries
+    bf54d73b-d784-45ae-a6df-5d1677f128a5: Italiano # Italiano
+    c55ee7be-2aa0-43d0-868b-346c941566ac: Notices # Notices
+    c470466d-9f78-4cfb-a207-47323188907e: Abstract # Abstract
+    cc3fbd7d-e32f-4ed1-a0c0-d5a027ae3635: Company # Company
+    cced1acb-d051-4730-96ef-06483ba2f87e: 'Page Blocks' # Page Blocks
+    ce59acc5-38bc-446d-aa83-e31494f2d5c3: 'HTML Content' # HTML Content
+    cee1eb13-8e85-4034-8a11-240f443b2c7e: 'Button Link' # Button Link
+    d4fd7328-09f4-4866-b373-0bf2137869ef: 'Footer Navigation' # Footer Navigation
+    da7a519c-9d5c-4a21-ba11-828a66b6520d: 'Main Navigation' # Main Navigation
+    da78d398-09aa-4396-bba7-eea929fbeef6: Date # Date
+    dce6b048-dfeb-4455-8336-b12ea1531052: Complete # Complete
+    df15bf77-b7e6-4c9a-82e3-963d87335def: 'News Categories' # News Categories
+    e1a68728-c41e-4c75-b77b-a703652d3524: Image # Image
+    ea1012b5-f48d-48b1-8b4f-ab6fff169cc5: 'Notices Index' # Notices Index
+    ece4ffe7-a9d9-4cf9-a40c-aef7fbd7f495: 'Services Index' # Services Index
+    edd46841-59b8-493b-99cc-4c868dcb8b0f: Tags # Tags
+    f086ff6b-69b9-4817-8107-74543e819862: Company # Company
+    f18e1447-9bfe-41b6-bb1f-13ead4eff875: 'Public Schema' # Public Schema
+    fa3467bc-e23a-4e10-ae1f-c045db992bb3: News # News
+    fec8b427-313e-44e1-b119-bfb0f6e8da41: 'News Categories' # News Categories
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  cloner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  expanded-singles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: WYYN0S2FWCW2W0NUDCUQ2I4R
+    schemaVersion: 2.1.0
+system:
+  edition: solo
+  live: true
+  name: Lazio0
+  schemaVersion: 5.7.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

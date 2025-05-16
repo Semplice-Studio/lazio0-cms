@@ -1,0 +1,125 @@
+color: green
+fieldLayouts:
+  d0c62b69-0caa-43a6-8113-303d7fce87de:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-09T14:03:35+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 28c429b1-565b-46c1-a486-a1ff1e7a914e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-09T14:05:22+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c470466d-9f78-4cfb-a207-47323188907e # Abstract
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 61cd40cc-3d97-4270-ad37-b49539f8e825
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0cb14e21-c93f-45a4-b8cf-9545641a8c90
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-09T14:12:09+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6da9f8fe-2cfa-4562-b68b-cdc3af435bb4 # Meta Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4eef088d-c8e8-4277-8af6-2794bf74ba6f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-09T14:12:09+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 2f5ad44b-f402-45cb-84c3-2b3e8f56c346 # Meta Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36d8cbc5-e626-4f26-96cd-d403d749a8bf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-09T14:12:09+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 4cfa7a0a-c70c-48a4-a7d6-4992d0adbea2 # Og Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45ad6559-4853-4774-9594-0a0ffb98283d
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: e231c108-6a66-428f-bb30-676d520073c0
+        userCondition: null
+handle: newsIndex
+hasTitleField: true
+icon: newspaper
+name: 'News Index'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: serviceCategories
+instructions: null
+name: 'Service Categories'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  defaultPlacement: end
+  maintainHierarchy: true
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showCardsInGrid: false
+  showSiteMenu: false
+  source: 'group:0282a82e-24c5-44ee-8b5c-309ba22b7351' # Service Categories
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Categories

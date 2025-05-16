@@ -1,0 +1,31 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 094b8c8b-9851-4c11-8ee8-3ffff533024d # Services
+handle: services
+maxAuthors: 1
+name: Services
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  bf54d73b-d784-45ae-a6df-5d1677f128a5: # Italiano
+    enabledByDefault: true
+    hasUrls: true
+    template: services/_entry.twig
+    uriFormat: 'serivizi/{slug}'
+structure:
+  maxLevels: null
+  uid: 187fa681-628f-4bba-819f-ec2775aa55d3
+type: structure

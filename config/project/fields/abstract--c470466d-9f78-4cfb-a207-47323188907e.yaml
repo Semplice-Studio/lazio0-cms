@@ -1,0 +1,24 @@
+columnSuffix: null
+handle: abstract
+instructions: null
+name: Abstract
+searchable: true
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  characterLimit: null
+  ckeConfig: 59f90dfa-f30d-424d-bf4b-5a56d2ddd6c5 # Basic
+  createButtonLabel: null
+  defaultTransform: null
+  fullGraphqlData: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  sourceEditingGroups:
+    - __ADMINS__
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

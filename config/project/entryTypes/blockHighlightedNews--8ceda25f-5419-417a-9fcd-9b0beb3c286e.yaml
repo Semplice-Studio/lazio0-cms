@@ -1,0 +1,68 @@
+color: violet
+fieldLayouts:
+  9c17b803-5418-44eb-a50a-3e68a92b8362:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-09T14:20:30+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 863b35f9-7b5e-4aef-8f01-7f0731447c25
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-09T14:22:56+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b0c6b145-a8dc-40d5-a227-0f16c6cf6ca3 # News Entries
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66d096e0-f97c-461f-98b5-f6e8a08c0449
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0e23d6b1-3778-4a63-898f-f6faec98577a
+        userCondition: null
+handle: blockHighlightedNews
+hasTitleField: true
+icon: newspaper
+name: 'Block Highlighted News'
+showSlugField: false
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

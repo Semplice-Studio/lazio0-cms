@@ -1,0 +1,85 @@
+color: violet
+fieldLayouts:
+  5280009b-44cd-48bb-ba1b-5d04fd871d71:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-09T13:40:43+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 91d328ae-1ee7-488b-ba8d-1d5abc4135a8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-09T13:42:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c470466d-9f78-4cfb-a207-47323188907e # Abstract
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8cdbdf84-1b23-4eac-9502-bd67a6c3b97b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-09T13:42:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 23bb7944-2e36-4935-a30f-80363dd71549 # Contact Items
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a4108078-5575-4238-8956-06d4c865db09
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c6b88d0f-0e99-4ca1-82f6-55537c5ca15a
+        userCondition: null
+handle: blockContacts
+hasTitleField: true
+icon: address-book
+name: 'Block Contacts'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

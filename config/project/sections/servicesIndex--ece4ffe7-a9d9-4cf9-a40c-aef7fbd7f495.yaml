@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 8170b2e0-58e8-4bb9-8bb2-c84e3bb35960 # Services Index
+handle: servicesIndex
+maxAuthors: 1
+name: 'Services Index'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  bf54d73b-d784-45ae-a6df-5d1677f128a5: # Italiano
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: servizi
+type: single

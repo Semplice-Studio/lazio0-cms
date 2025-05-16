@@ -1,0 +1,11 @@
+headingLevels: false
+name: Complete
+toolbar:
+  - underline
+  - strikethrough
+  - '|'
+  - bold
+  - italic
+  - link
+  - bulletedList
+  - numberedList
