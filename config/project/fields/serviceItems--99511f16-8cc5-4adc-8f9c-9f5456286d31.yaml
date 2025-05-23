@@ -1,0 +1,26 @@
+columnSuffix: null
+handle: serviceItems
+instructions: null
+name: 'Service Items'
+searchable: false
+settings:
+  createButtonLabel: null
+  defaultIndexViewMode: cards
+  enableVersioning: false
+  entryTypes:
+    -
+      __assoc__:
+        -
+          - uid
+          - 9eeeda2c-6267-4c61-a92e-4d04020c74ff # Service Item
+  includeTableView: false
+  maxEntries: 3
+  minEntries: 1
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

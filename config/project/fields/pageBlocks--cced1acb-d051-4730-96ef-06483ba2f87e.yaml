@@ -17,6 +17,11 @@ settings:
       __assoc__:
         -
           - uid
+          - 6065cedf-8657-4bea-b1fe-6ca3fbcbda13 # Block Media
+    -
+      __assoc__:
+        -
+          - uid
           - 94019850-1257-45d7-ae9d-8553ae9caf62 # Block Timeline
     -
       __assoc__:

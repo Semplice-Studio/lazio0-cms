@@ -19,7 +19,7 @@ settings:
     - 'section:0d4941cf-6808-4cc6-83a6-b6ccf2fce854' # News
   targetSiteId: null
   validateRelatedElements: false
-  viewMode: list
+  viewMode: cards
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Entries

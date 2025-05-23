@@ -138,6 +138,29 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-05-20T14:11:26+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 4e9a0fc5-658f-4c7a-b122-18938ab8bc3f
+            userCondition: null
+          -
+            dateAdded: '2025-05-20T14:11:26+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: a414af45-eb1f-409e-b3bd-95e1f8db9485 # Boolean
+            handle: withSidebar
+            includeInCards: false
+            instructions: null
+            label: 'With Sidebar'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa7f1052-35cc-4929-a431-ca8e42271d17
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2025-05-09T13:44:33+00:00'
             editCondition: null
             elementCondition: null

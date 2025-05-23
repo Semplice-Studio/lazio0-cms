@@ -33,6 +33,6 @@ showSlugField: false
 showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
-titleFormat: null
+titleFormat: '{{buttonLink.label}}'
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

@@ -1,0 +1,68 @@
+color: violet
+fieldLayouts:
+  f50d6e38-3c91-40c3-b44b-346cbdb070c2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-05-23T14:22:24+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b85e2d4b-d6d9-47b4-ac1c-0fc31a973970
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-23T14:19:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3adefa30-05a1-4c17-9a41-3f05e626666f # Medias
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2796b8a9-cdc9-410e-9fcb-0aaf544eada8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 8f790f18-30b2-4e32-a468-bc83ae039f34
+        userCondition: null
+handle: blockMedia
+hasTitleField: true
+icon: photo-film
+name: 'Block Media'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

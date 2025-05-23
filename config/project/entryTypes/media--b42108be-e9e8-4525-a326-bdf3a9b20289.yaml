@@ -1,0 +1,90 @@
+color: blue
+fieldLayouts:
+  f1ee3344-cc54-4e19-abf4-3abc5bbbadfc:
+    cardView:
+      - 'layoutElement:c8e0f555-04d6-4a01-9007-36a1b7407f86'
+      - 'layoutElement:0b319b22-32f0-46fd-ba94-c1d7bd57cb41'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-23T14:14:19+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e1a68728-c41e-4c75-b77b-a703652d3524 # Image
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8e0f555-04d6-4a01-9007-36a1b7407f86
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-23T14:14:19+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b0020cc9-2a31-4197-b685-37835c6aad7f # Video
+            handle: null
+            includeInCards: true
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0b319b22-32f0-46fd-ba94-c1d7bd57cb41
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-23T14:14:19+00:00'
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: 'If Video is selected, Image will be displayed as placeholder.'
+            type: craft\fieldlayoutelements\Tip
+            uid: 1867e498-b294-45df-803c-6ca768e15066
+            userCondition: null
+          -
+            dateAdded: '2025-05-23T14:22:10+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: a8353baa-3578-4a13-8634-f9abd02197fb
+            userCondition: null
+          -
+            dateAdded: '2025-05-23T14:25:09+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 7faa3ecb-245d-4f78-bc4c-950572c9310f # Column
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5fa4826b-c40e-4fcc-8b3f-cbc058d95a2c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3a197ca0-90d2-417b-9936-876af9437771
+        userCondition: null
+handle: media
+hasTitleField: false
+icon: photo-film
+name: Media
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

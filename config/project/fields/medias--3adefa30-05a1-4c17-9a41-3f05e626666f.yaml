@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: companyBlocks
+handle: medias
 instructions: null
-name: 'Company Blocks'
+name: Medias
 searchable: false
 settings:
   createButtonLabel: null
@@ -12,25 +12,15 @@ settings:
       __assoc__:
         -
           - uid
-          - 8ceda25f-5419-417a-9fcd-9b0beb3c286e # Block Highlighted News
-    -
-      __assoc__:
-        -
-          - uid
-          - abcb7aa6-b800-4473-8668-2a4b3addf4b4 # Block Highlighted Services
-    -
-      __assoc__:
-        -
-          - uid
-          - 78a716d1-9d68-48ea-88d8-c47f47a1f3d1 # Block Highlighted Links
+          - b42108be-e9e8-4525-a326-bdf3a9b20289 # Media
   includeTableView: false
   maxEntries: null
   minEntries: null
-  pageSize: null
+  pageSize: 50
   propagationKeyFormat: null
   propagationMethod: all
   showCardsInGrid: false
-  viewMode: blocks
+  viewMode: cards
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix
