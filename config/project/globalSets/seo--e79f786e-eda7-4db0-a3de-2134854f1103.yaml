@@ -1,0 +1,72 @@
+fieldLayouts:
+  7851adfb-cc02-4597-83c5-beafd45e642f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-26T13:08:42+00:00'
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: 'If there are no values on the page these values will be used.'
+            type: craft\fieldlayoutelements\Tip
+            uid: 1dc5749b-06fe-4055-9587-4cfc57baeca8
+            userCondition: null
+          -
+            dateAdded: '2025-05-26T13:08:42+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6da9f8fe-2cfa-4562-b68b-cdc3af435bb4 # Meta Title
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e52f4b03-ebba-4a05-91b4-1b14a9ca592c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-26T13:08:42+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 2f5ad44b-f402-45cb-84c3-2b3e8f56c346 # Meta Description
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9154de8-0f8c-4fba-8a63-0d3742ada762
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-26T13:08:42+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 4cfa7a0a-c70c-48a4-a7d6-4992d0adbea2 # Og Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0f68070-dc5f-42b8-a65f-86765ae09228
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ffaa5983-4417-496c-b0a6-a0b594444575
+        userCondition: null
+handle: seo
+name: SEO
+sortOrder: 2

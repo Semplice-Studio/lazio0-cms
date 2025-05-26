@@ -1,4 +1,4 @@
-dateModified: 1748013440
+dateModified: 1748264992
 elementSources:
   craft\elements\Entry:
     -
@@ -83,6 +83,7 @@ meta:
     3adefa30-05a1-4c17-9a41-3f05e626666f: Medias # Medias
     3d496bdf-f201-4f39-887e-7528c2f08f89: 'Link Items' # Link Items
     4cfa7a0a-c70c-48a4-a7d6-4992d0adbea2: 'Og Image' # Og Image
+    4dc92844-360a-4d22-b405-e6332c22c613: Text # Text
     5f8a7208-3d98-4188-a70f-56962a1fcb39: 'Company Blocks' # Company Blocks
     6da9f8fe-2cfa-4562-b68b-cdc3af435bb4: 'Meta Title' # Meta Title
     7c069235-fcc1-45ba-9106-c656ffc83ddb: 'Block Paragraph' # Block Paragraph
@@ -116,6 +117,7 @@ meta:
     abcb7aa6-b800-4473-8668-2a4b3addf4b4: 'Block Highlighted Services' # Block Highlighted Services
     b0c6b145-a8dc-40d5-a227-0f16c6cf6ca3: 'News Entries' # News Entries
     b0020cc9-2a31-4197-b685-37835c6aad7f: Video # Video
+    b78bc88c-8927-416d-87c5-ece3ced4d428: 'Company Info' # Company Info
     b42108be-e9e8-4525-a326-bdf3a9b20289: Media # Media
     bf54d73b-d784-45ae-a6df-5d1677f128a5: Italiano # Italiano
     c55ee7be-2aa0-43d0-868b-346c941566ac: Notices # Notices
@@ -130,11 +132,13 @@ meta:
     dce6b048-dfeb-4455-8336-b12ea1531052: Complete # Complete
     df15bf77-b7e6-4c9a-82e3-963d87335def: 'News Categories' # News Categories
     e1a68728-c41e-4c75-b77b-a703652d3524: Image # Image
+    e79f786e-eda7-4db0-a3de-2134854f1103: SEO # SEO
     ea1012b5-f48d-48b1-8b4f-ab6fff169cc5: 'Pagina Lista Concorsi' # Pagina Lista Concorsi
     ece4ffe7-a9d9-4cf9-a40c-aef7fbd7f495: 'Pagina Lista Servizi' # Pagina Lista Servizi
     edd46841-59b8-493b-99cc-4c868dcb8b0f: Tags # Tags
     f086ff6b-69b9-4817-8107-74543e819862: Company # Company
     f18e1447-9bfe-41b6-bb1f-13ead4eff875: 'Public Schema' # Public Schema
+    f4796238-1c4f-46b6-8761-05ff79146643: 'Bottom Navigation' # Bottom Navigation
     fa3467bc-e23a-4e10-ae1f-c045db992bb3: News # News
     fec8b427-313e-44e1-b119-bfb0f6e8da41: 'News Categories' # News Categories
 plugins:

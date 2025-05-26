@@ -17,7 +17,7 @@ fieldLayouts:
             includeInCards: false
             inputType: null
             instructions: null
-            label: null
+            label: Titolo
             max: null
             min: null
             name: null
@@ -43,7 +43,7 @@ fieldLayouts:
             handle: null
             includeInCards: false
             instructions: null
-            label: null
+            label: 'Testo introduttivo'
             providesThumbs: false
             required: false
             tip: null
@@ -60,7 +60,7 @@ fieldLayouts:
             handle: null
             includeInCards: false
             instructions: null
-            label: null
+            label: 'Lista Contatti'
             providesThumbs: false
             required: false
             tip: null

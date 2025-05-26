@@ -3,16 +3,18 @@ name: 'Public Schema'
 scope:
   - 'sites.bf54d73b-d784-45ae-a6df-5d1677f128a5:read' # Italiano
   - 'sections.cc3fbd7d-e32f-4ed1-a0c0-d5a027ae3635:read' # Azienda
-  - 'sections.177aa665-72e0-4399-858a-6109bd8fd8f4:read' # Pagina Lista News
   - 'sections.ea1012b5-f48d-48b1-8b4f-ab6fff169cc5:read' # Pagina Lista Concorsi
+  - 'sections.177aa665-72e0-4399-858a-6109bd8fd8f4:read' # Pagina Lista News
   - 'sections.ece4ffe7-a9d9-4cf9-a40c-aef7fbd7f495:read' # Pagina Lista Servizi
-  - 'sections.0d4941cf-6808-4cc6-83a6-b6ccf2fce854:read' # News
   - 'sections.447ba56b-eaae-491c-b9ca-5b0a9c14667c:read' # Concorsi
+  - 'sections.0d4941cf-6808-4cc6-83a6-b6ccf2fce854:read' # News
   - 'sections.55e87bc3-bb4e-4810-9d03-0e96205e3920:read' # Servizi
   - 'volumes.7688362c-b0db-42c5-bbdd-084ffe6d96ec:read' # Assets
+  - 'globalsets.b78bc88c-8927-416d-87c5-ece3ced4d428:read' # Company Info
   - 'categorygroups.fec8b427-313e-44e1-b119-bfb0f6e8da41:read' # News Categories
   - 'categorygroups.5951cf5d-d76e-421b-a83d-fb6accf03abb:read' # Notice Categories
   - 'categorygroups.0282a82e-24c5-44ee-8b5c-309ba22b7351:read' # Service Categories
   - 'categorygroups.7171bd95-81e2-4fbe-93ea-742bd6ccfd1b:read' # Tags
   - 'navigationNavs.da7a519c-9d5c-4a21-ba11-828a66b6520d:read' # Main Navigation
   - 'navigationNavs.d4fd7328-09f4-4866-b373-0bf2137869ef:read' # Footer Navigation
+  - 'navigationNavs.f4796238-1c4f-46b6-8761-05ff79146643:read' # Bottom Navigation
