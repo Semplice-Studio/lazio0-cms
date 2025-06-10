@@ -1,0 +1,6 @@
+headingLevels: false
+name: Contact
+toolbar:
+  - bold
+  - italic
+  - link

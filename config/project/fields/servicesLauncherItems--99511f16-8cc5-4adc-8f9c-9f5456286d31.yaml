@@ -1,7 +1,7 @@
 columnSuffix: null
-handle: serviceItems
+handle: servicesLauncherItems
 instructions: null
-name: 'Service Items'
+name: 'Services Launcher Items'
 searchable: false
 settings:
   createButtonLabel: null
@@ -12,7 +12,7 @@ settings:
       __assoc__:
         -
           - uid
-          - 9eeeda2c-6267-4c61-a92e-4d04020c74ff # Service Item
+          - 9eeeda2c-6267-4c61-a92e-4d04020c74ff # Services Launcher
   includeTableView: false
   maxEntries: 3
   minEntries: 1

@@ -24,7 +24,7 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: 'serivizi/{slug}'
+    uriFormat: 'servizi/{slug}'
 structure:
   maxLevels: null
   uid: 187fa681-628f-4bba-819f-ec2775aa55d3

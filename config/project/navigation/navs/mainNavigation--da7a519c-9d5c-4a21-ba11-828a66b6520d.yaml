@@ -166,6 +166,40 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-06-10T14:27:02+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: a414af45-eb1f-409e-b3bd-95e1f8db9485 # Boolean
+            handle: secondary
+            includeInCards: false
+            instructions: null
+            label: 'Secondary (Anchor Right)'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a8da2d64-8e90-40ec-87d1-fe3eddb005a9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-06-10T14:27:02+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: a414af45-eb1f-409e-b3bd-95e1f8db9485 # Boolean
+            handle: buttonStyle
+            includeInCards: false
+            instructions: null
+            label: 'Button Style'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cc17aa3c-6154-4a02-9de9-a9cfd6b358b2
+            userCondition: null
+            warning: null
+            width: 100
         name: Advanced
         uid: f32964e3-d5ae-4656-8162-edfe27099543
         userCondition: null
