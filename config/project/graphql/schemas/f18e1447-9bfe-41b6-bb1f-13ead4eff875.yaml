@@ -8,9 +8,12 @@ scope:
   - 'sections.ece4ffe7-a9d9-4cf9-a40c-aef7fbd7f495:read' # Pagina Lista Servizi
   - 'sections.447ba56b-eaae-491c-b9ca-5b0a9c14667c:read' # Concorsi
   - 'sections.0d4941cf-6808-4cc6-83a6-b6ccf2fce854:read' # News
+  - 'sections.77f70e40-ee1e-43a0-a1fb-c22b8fbf9243:read' # Pagine
   - 'sections.55e87bc3-bb4e-4810-9d03-0e96205e3920:read' # Servizi
   - 'volumes.7688362c-b0db-42c5-bbdd-084ffe6d96ec:read' # Assets
   - 'globalsets.b78bc88c-8927-416d-87c5-ece3ced4d428:read' # Company Info
+  - 'globalsets.e79f786e-eda7-4db0-a3de-2134854f1103:read' # SEO
+  - 'globalsets.478c9689-645d-4583-b753-722b9f2fa982:read' # Socials
   - 'categorygroups.fec8b427-313e-44e1-b119-bfb0f6e8da41:read' # News Categories
   - 'categorygroups.5951cf5d-d76e-421b-a83d-fb6accf03abb:read' # Notice Categories
   - 'categorygroups.0282a82e-24c5-44ee-8b5c-309ba22b7351:read' # Service Categories
@@ -18,3 +21,4 @@ scope:
   - 'navigationNavs.da7a519c-9d5c-4a21-ba11-828a66b6520d:read' # Main Navigation
   - 'navigationNavs.d4fd7328-09f4-4866-b373-0bf2137869ef:read' # Footer Navigation
   - 'navigationNavs.f4796238-1c4f-46b6-8761-05ff79146643:read' # Bottom Navigation
+  - 'navigationNavs.e52f001a-ef7c-44c4-9301-8f150f87584f:read' # Amministrazione Trasparente

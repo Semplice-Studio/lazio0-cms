@@ -28,6 +28,11 @@ settings:
         -
           - uid
           - 41564f99-8920-4bfd-bd10-ba8f55b945c1 # Block Contacts
+    -
+      __assoc__:
+        -
+          - uid
+          - 85f9e0fc-3b94-4966-9a82-5f3f2a24b602 # Block List Links
   includeTableView: false
   maxEntries: null
   minEntries: null
