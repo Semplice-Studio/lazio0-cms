@@ -170,7 +170,7 @@ fieldLayouts:
         uid: c2379f02-d982-49a5-8a79-3648ab459fda
         userCondition: null
 handle: bottomNavigation
-instructions: ''
+instructions: null
 maxNodes: null
 name: 'Bottom Navigation'
 permissions:

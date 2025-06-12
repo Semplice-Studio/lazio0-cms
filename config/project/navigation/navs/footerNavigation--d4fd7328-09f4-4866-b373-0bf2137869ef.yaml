@@ -170,7 +170,7 @@ fieldLayouts:
         uid: 7c288dca-364a-47c0-ace9-ac6c0503d39d
         userCondition: null
 handle: footerNavigation
-instructions: ''
+instructions: null
 maxNodes: null
 name: 'Footer Navigation'
 permissions:

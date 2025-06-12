@@ -170,7 +170,7 @@ fieldLayouts:
         uid: 603c33e9-d6d1-405e-b6c6-fdfee33b004f
         userCondition: null
 handle: amministrazioneTrasparente
-instructions: ''
+instructions: null
 maxNodes: null
 name: 'Amministrazione Trasparente'
 permissions:

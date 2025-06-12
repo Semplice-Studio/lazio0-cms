@@ -204,7 +204,7 @@ fieldLayouts:
         uid: f32964e3-d5ae-4656-8162-edfe27099543
         userCondition: null
 handle: mainNavigation
-instructions: ''
+instructions: null
 maxNodes: null
 name: 'Main Navigation'
 permissions:
