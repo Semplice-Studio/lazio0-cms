@@ -121,7 +121,17 @@ fieldLayouts:
           -
             dateAdded: '2025-06-11T18:18:53+00:00'
             editCondition: null
-            elementCondition: null
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\LightswitchFieldConditionRule
+                  fieldUid: a414af45-eb1f-409e-b3bd-95e1f8db9485 # Boolean
+                  layoutElementUid: 5d81d064-70c2-4457-a442-afa9fb3f459c
+                  uid: 5d1259c8-4692-4689-92bc-b4dcdfda6bb7
+                  value: true
+              elementType: craft\elements\Entry
+              fieldContext: global
             fieldUid: 4dc92844-360a-4d22-b405-e6332c22c613 # Text
             handle: sidebarTitle
             includeInCards: false
