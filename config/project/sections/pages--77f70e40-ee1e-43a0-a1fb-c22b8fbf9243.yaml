@@ -25,4 +25,7 @@ siteSettings:
     hasUrls: true
     template: null
     uriFormat: '{slug}'
-type: channel
+structure:
+  maxLevels: 2
+  uid: b377e26f-5bd1-49c8-9faa-dfe172b2a8f1
+type: structure

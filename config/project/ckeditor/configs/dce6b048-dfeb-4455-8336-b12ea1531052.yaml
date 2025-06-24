@@ -9,3 +9,4 @@ toolbar:
   - link
   - bulletedList
   - numberedList
+  - insertTable
