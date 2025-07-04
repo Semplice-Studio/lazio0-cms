@@ -8,7 +8,7 @@ scope:
   - 'sections.ece4ffe7-a9d9-4cf9-a40c-aef7fbd7f495:read' # Pagina Lista Servizi
   - 'sections.447ba56b-eaae-491c-b9ca-5b0a9c14667c:read' # Concorsi
   - 'sections.0d4941cf-6808-4cc6-83a6-b6ccf2fce854:read' # News
-  - 'sections.77f70e40-ee1e-43a0-a1fb-c22b8fbf9243:read' # Pagine
+  - 'sections.77f70e40-ee1e-43a0-a1fb-c22b8fbf9243:read' # Amministrazione Trasparente
   - 'sections.55e87bc3-bb4e-4810-9d03-0e96205e3920:read' # Servizi
   - 'volumes.7688362c-b0db-42c5-bbdd-084ffe6d96ec:read' # Assets
   - 'globalsets.b78bc88c-8927-416d-87c5-ece3ced4d428:read' # Company Info

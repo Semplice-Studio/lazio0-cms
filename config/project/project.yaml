@@ -1,4 +1,4 @@
-dateModified: 1750757194
+dateModified: 1751615385
 elementSources:
   craft\elements\Entry:
     -
@@ -69,21 +69,33 @@ elementSources:
       key: 'section:55e87bc3-bb4e-4810-9d03-0e96205e3920' # Servizi
       type: native
     -
-      heading: Pagine
+      heading: 'Amministrazione Trasparente'
       type: heading
+    -
+      key: 'single:8790efff-14ba-4eb3-afaf-28cf82e287e0' # Indice Amministrazione Trasparente
+      type: native
     -
       defaultSort:
         - postDate
         - desc
       defaultViewMode: ''
       disabled: false
-      key: 'section:77f70e40-ee1e-43a0-a1fb-c22b8fbf9243' # Pagine
+      key: 'section:77f70e40-ee1e-43a0-a1fb-c22b8fbf9243' # Amministrazione Trasparente
       tableAttributes:
         - status
         - postDate
         - expiryDate
         - link
       type: native
+    -
+      heading: Pagine
+      type: heading
+    -
+      key: 'section:28755ee1-7291-4022-8318-b580a53be9b9' # Pagine
+      type: native
+    -
+      heading: ''
+      type: heading
 email:
   fromEmail: hello@semplice.is
   fromName: Lazio0
@@ -104,6 +116,7 @@ meta:
     1cf5e779-1fe9-4f40-b3c8-5041e3019e0c: Media # Media
     2a140bc3-24a8-4b4f-87cd-90efdd2dce3c: Navigation # Navigation
     2adf50ba-c536-4ed9-a84d-48fab25f5eb4: Simple # Simple
+    2b1527bd-6be5-4cea-bbe7-ff924ff583aa: Pages # Pages
     2e312ed0-653e-499b-930f-ab172d49032f: 'Link Item' # Link Item
     2e315768-564c-4ee3-ba1c-711e11c1c0bb: 'Timeline Items' # Timeline Items
     2f5ad44b-f402-45cb-84c3-2b3e8f56c346: 'Meta Description' # Meta Description
@@ -114,7 +127,7 @@ meta:
     4dc92844-360a-4d22-b405-e6332c22c613: Text # Text
     4f7b3632-82fe-4467-b89c-6db5c741b79b: 'Contact HTML' # Contact HTML
     5f8a7208-3d98-4188-a70f-56962a1fcb39: 'Company Blocks' # Company Blocks
-    5f41854c-a86a-48d4-9560-f6ec5bde1d66: Pages # Pages
+    5f41854c-a86a-48d4-9560-f6ec5bde1d66: Transparencies # Transparencies
     6da9f8fe-2cfa-4562-b68b-cdc3af435bb4: 'Meta Title' # Meta Title
     7c069235-fcc1-45ba-9106-c656ffc83ddb: 'Block Paragraph' # Block Paragraph
     7faa3ecb-245d-4f78-bc4c-950572c9310f: Column # Column
@@ -125,7 +138,7 @@ meta:
     49a5372e-43f0-42e3-9b6e-b1d4774bd217: 'News Index' # News Index
     55e87bc3-bb4e-4810-9d03-0e96205e3920: Servizi # Servizi
     59f90dfa-f30d-424d-bf4b-5a56d2ddd6c5: Basic # Basic
-    77f70e40-ee1e-43a0-a1fb-c22b8fbf9243: Pagine # Pagine
+    77f70e40-ee1e-43a0-a1fb-c22b8fbf9243: 'Amministrazione Trasparente' # Amministrazione Trasparente
     78a716d1-9d68-48ea-88d8-c47f47a1f3d1: 'Block Highlighted Links' # Block Highlighted Links
     85f9e0fc-3b94-4966-9a82-5f3f2a24b602: 'Block List Links' # Block List Links
     094b8c8b-9851-4c11-8ee8-3ffff533024d: Services # Services
@@ -139,7 +152,9 @@ meta:
     7171bd95-81e2-4fbe-93ea-742bd6ccfd1b: Tags # Tags
     7444c063-9cb4-4535-a38e-df16d0ed40d6: Lazio0 # Lazio0
     8170b2e0-58e8-4bb9-8bb2-c84e3bb35960: 'Services Index' # Services Index
+    8790efff-14ba-4eb3-afaf-28cf82e287e0: 'Indice Amministrazione Trasparente' # Indice Amministrazione Trasparente
     17157e69-97f7-434e-b9ac-e173ed80c0eb: 'Notices Index' # Notices Index
+    28755ee1-7291-4022-8318-b580a53be9b9: Pagine # Pagine
     41564f99-8920-4bfd-bd10-ba8f55b945c1: 'Block Contacts' # Block Contacts
     52027cea-264e-4342-90c7-456eec3d29f1: 'Social Items' # Social Items
     99511f16-8cc5-4adc-8f9c-9f5456286d31: 'Services Launcher Items' # Services Launcher Items

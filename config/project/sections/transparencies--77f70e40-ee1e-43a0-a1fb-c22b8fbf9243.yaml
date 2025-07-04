@@ -2,10 +2,10 @@ defaultPlacement: end
 enableVersioning: true
 entryTypes:
   -
-    uid: 5f41854c-a86a-48d4-9560-f6ec5bde1d66 # Pages
-handle: pages
+    uid: 5f41854c-a86a-48d4-9560-f6ec5bde1d66 # Transparencies
+handle: transparencies
 maxAuthors: 1
-name: Pagine
+name: 'Amministrazione Trasparente'
 previewTargets:
   -
     __assoc__:
@@ -24,8 +24,8 @@ siteSettings:
     enabledByDefault: true
     hasUrls: true
     template: null
-    uriFormat: '{slug}'
+    uriFormat: 'amministrazione-trasparente/{slug}'
 structure:
-  maxLevels: 2
+  maxLevels: 4
   uid: b377e26f-5bd1-49c8-9faa-dfe172b2a8f1
 type: structure
