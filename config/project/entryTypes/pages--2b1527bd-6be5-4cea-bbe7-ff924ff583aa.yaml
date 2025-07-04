@@ -53,23 +53,6 @@ fieldLayouts:
             warning: null
             width: 25
           -
-            dateAdded: '2025-05-09T14:01:48+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: 0fd3605b-bcde-4d0d-8a4f-fb61a0d0df2b # Service Categories
-            handle: null
-            includeInCards: false
-            instructions: null
-            label: null
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 8f6ed5ca-30e7-4192-b962-ad73047530f1
-            userCondition: null
-            warning: null
-            width: 50
-          -
             dateAdded: '2025-05-09T13:50:22+00:00'
             editCondition: null
             elementCondition: null
