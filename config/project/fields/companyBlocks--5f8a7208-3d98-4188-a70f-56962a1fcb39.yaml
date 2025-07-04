@@ -23,6 +23,11 @@ settings:
         -
           - uid
           - 78a716d1-9d68-48ea-88d8-c47f47a1f3d1 # Block Highlighted Links
+    -
+      __assoc__:
+        -
+          - uid
+          - 7c069235-fcc1-45ba-9106-c656ffc83ddb # Block Paragraph
   includeTableView: false
   maxEntries: null
   minEntries: null
