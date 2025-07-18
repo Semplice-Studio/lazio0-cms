@@ -8,6 +8,7 @@
     "verbb/expanded-singles": "3.0.2",
     "verbb/formie": "3.0.29",
     "verbb/navigation": "3.0.8",
+    "verbb/tablemaker": "dev-craft-5 as 5.0.5",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {

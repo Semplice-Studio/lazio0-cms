@@ -36,6 +36,40 @@ fieldLayouts:
             warning: null
             width: 100
           -
+            dateAdded: '2025-07-18T13:42:39+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c470466d-9f78-4cfb-a207-47323188907e # Abstract
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 112a4fcd-7e6e-4546-8a4f-f5553542ef81
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-18T13:42:39+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: ce59acc5-38bc-446d-aa83-e31494f2d5c3 # HTML Content
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9fe22bcc-c4da-4458-b906-9903ca0bb3fa
+            userCondition: null
+            warning: null
+            width: 100
+          -
             dateAdded: '2025-05-09T14:25:47+00:00'
             editCondition: null
             elementCondition: null

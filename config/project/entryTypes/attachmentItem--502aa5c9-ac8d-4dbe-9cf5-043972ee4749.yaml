@@ -1,0 +1,72 @@
+color: blue
+fieldLayouts:
+  5b8f7b5a-f3ba-41c1-8a2b-14a304dfa00e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-09T14:25:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: cee1eb13-8e85-4034-8a11-240f443b2c7e # Button Link
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 480383c2-f560-48ac-be02-244c42afeda1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-18T09:24:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: da78d398-09aa-4396-bba7-eea929fbeef6 # Date
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e5065ff2-5d33-4464-b507-26ee8b082916
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-18T09:24:55+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 4dc92844-360a-4d22-b405-e6332c22c613 # Text
+            handle: size
+            includeInCards: false
+            instructions: null
+            label: Size
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8d57ab72-4395-4dc6-9fdc-52d9453b4cd9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: e29524c9-7c1e-4cc2-be39-db8bf42774d0
+        userCondition: null
+handle: attachmentItem
+hasTitleField: false
+icon: link
+name: 'Attachment Item'
+showSlugField: true
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: '{{buttonLink.label}}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

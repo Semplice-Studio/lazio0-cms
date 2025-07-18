@@ -1,6 +1,6 @@
 color: violet
 fieldLayouts:
-  fa88bf0d-f31b-4edf-b30b-f56a50fd9b03:
+  4a94a05d-73eb-4657-b0ea-2347b4d6a90b:
     tabs:
       -
         elementCondition: null
@@ -10,7 +10,7 @@ fieldLayouts:
             autocomplete: false
             autocorrect: true
             class: null
-            dateAdded: '2025-05-09T09:36:25+00:00'
+            dateAdded: '2025-05-09T14:22:18+00:00'
             disabled: false
             elementCondition: null
             id: null
@@ -31,12 +31,12 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 824ae42c-df68-4673-91ae-cd54c9f8b661
+            uid: 0344a04c-de2d-437e-8540-26b9afcf691a
             userCondition: null
             warning: null
-            width: 75
+            width: 100
           -
-            dateAdded: '2025-07-18T13:23:32+00:00'
+            dateAdded: '2025-07-18T13:36:48+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: c470466d-9f78-4cfb-a207-47323188907e # Abstract
@@ -48,29 +48,12 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e463b0b7-3367-4bdc-8c21-a26d7f2d50c5
+            uid: 224befae-bf77-414b-ac50-89e790e166c4
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-09T09:47:58+00:00'
-            editCondition: null
-            elementCondition: null
-            fieldUid: a414af45-eb1f-409e-b3bd-95e1f8db9485 # Boolean
-            handle: evidence
-            includeInCards: false
-            instructions: null
-            label: Evidence
-            providesThumbs: false
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: f7279620-f7df-4839-814a-405102aa8253
-            userCondition: null
-            warning: null
-            width: 25
-          -
-            dateAdded: '2025-05-09T09:47:58+00:00'
+            dateAdded: '2025-07-18T13:36:48+00:00'
             editCondition: null
             elementCondition: null
             fieldUid: ce59acc5-38bc-446d-aa83-e31494f2d5c3 # HTML Content
@@ -82,15 +65,15 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 4de44a40-a96d-4d2a-8aa4-6d74f94460eb
+            uid: 3777f989-f85c-4f6d-a372-8459b70bfe96
             userCondition: null
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-09T09:49:28+00:00'
+            dateAdded: '2025-07-18T09:26:13+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: cee1eb13-8e85-4034-8a11-240f443b2c7e # Button Link
+            fieldUid: 04af8e95-9178-465d-bdc8-a621ce7ff25c # Table
             handle: null
             includeInCards: false
             instructions: null
@@ -99,19 +82,19 @@ fieldLayouts:
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 66f4e7f4-6895-4f3c-b74a-b5e3f1224c17
+            uid: 63ea5102-ea63-46b7-bf62-8f4187259aba
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: a6a04574-1101-4728-b2cc-4505c25280aa
+        uid: 6fec7e66-895f-4b48-b15c-ded7b8539f65
         userCondition: null
-handle: blockParagraph
+handle: blockGenericTable
 hasTitleField: true
-icon: font-case
-name: 'Block Paragraph'
-showSlugField: false
-showStatusField: true
+icon: table
+name: 'Block Generic Table'
+showSlugField: true
+showStatusField: false
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 titleFormat: null

@@ -1,4 +1,4 @@
-dateModified: 1751639703
+dateModified: 1752846159
 elementSources:
   craft\elements\Entry:
     -
@@ -113,6 +113,7 @@ meta:
     0a94301a-456d-413c-97d4-51e67f6e1487: 'Contact Item' # Contact Item
     0d4941cf-6808-4cc6-83a6-b6ccf2fce854: News # News
     0fd3605b-bcde-4d0d-8a4f-fb61a0d0df2b: 'Service Categories' # Service Categories
+    1b39e3c3-7a01-4a65-8438-36649b1562d4: 'Block Generic Table' # Block Generic Table
     1cf5e779-1fe9-4f40-b3c8-5041e3019e0c: Media # Media
     2a140bc3-24a8-4b4f-87cd-90efdd2dce3c: Navigation # Navigation
     2adf50ba-c536-4ed9-a84d-48fab25f5eb4: Simple # Simple
@@ -122,6 +123,8 @@ meta:
     2f5ad44b-f402-45cb-84c3-2b3e8f56c346: 'Meta Description' # Meta Description
     3adefa30-05a1-4c17-9a41-3f05e626666f: Medias # Medias
     3d496bdf-f201-4f39-887e-7528c2f08f89: 'Link Items' # Link Items
+    04af8e95-9178-465d-bdc8-a621ce7ff25c: Table # Table
+    4b17b4fe-2617-46c6-946a-6c469a5468d5: 'Block Attachment Table' # Block Attachment Table
     4cfa7a0a-c70c-48a4-a7d6-4992d0adbea2: 'Og Image' # Og Image
     4d7ee02b-c1de-4c1f-8a38-f525e5ecd713: Contact # Contact
     4dc92844-360a-4d22-b405-e6332c22c613: Text # Text
@@ -141,11 +144,13 @@ meta:
     77f70e40-ee1e-43a0-a1fb-c22b8fbf9243: 'Amministrazione Trasparente' # Amministrazione Trasparente
     78a716d1-9d68-48ea-88d8-c47f47a1f3d1: 'Block Highlighted Links' # Block Highlighted Links
     85f9e0fc-3b94-4966-9a82-5f3f2a24b602: 'Block List Links' # Block List Links
+    92bf6e7e-2d6b-431e-8fc0-f3b5edf5a18a: 'Attachment Items' # Attachment Items
     094b8c8b-9851-4c11-8ee8-3ffff533024d: Services # Services
     177aa665-72e0-4399-858a-6109bd8fd8f4: 'Pagina Lista News' # Pagina Lista News
     0282a82e-24c5-44ee-8b5c-309ba22b7351: 'Service Categories' # Service Categories
     447ba56b-eaae-491c-b9ca-5b0a9c14667c: Concorsi # Concorsi
     478c9689-645d-4583-b753-722b9f2fa982: Socials # Socials
+    502aa5c9-ac8d-4dbe-9cf5-043972ee4749: 'Attachment Item' # Attachment Item
     4124d1d7-3a6b-487e-be89-41e220961814: 'Notice Categories' # Notice Categories
     5951cf5d-d76e-421b-a83d-fb6accf03abb: 'Notice Categories' # Notice Categories
     6065cedf-8657-4bea-b1fe-6ca3fbcbda13: 'Block Media' # Block Media
@@ -218,6 +223,14 @@ plugins:
     enabled: true
     licenseKey: WYYN0S2FWCW2W0NUDCUQ2I4R
     schemaVersion: 2.1.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.0.0
+  tablemaker:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
 system:
   edition: solo
   live: true

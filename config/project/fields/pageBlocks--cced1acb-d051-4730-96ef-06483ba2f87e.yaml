@@ -33,6 +33,16 @@ settings:
         -
           - uid
           - 85f9e0fc-3b94-4966-9a82-5f3f2a24b602 # Block List Links
+    -
+      __assoc__:
+        -
+          - uid
+          - 4b17b4fe-2617-46c6-946a-6c469a5468d5 # Block Attachment Table
+    -
+      __assoc__:
+        -
+          - uid
+          - 1b39e3c3-7a01-4a65-8438-36649b1562d4 # Block Generic Table
   includeTableView: false
   maxEntries: null
   minEntries: null

@@ -55,6 +55,40 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-07-18T10:48:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e1a68728-c41e-4c75-b77b-a703652d3524 # Image
+            handle: logoHeader
+            includeInCards: false
+            instructions: null
+            label: 'Logo Header'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 59541ae0-5613-49ea-a410-04d10571aa16
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-07-18T10:48:34+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: e1a68728-c41e-4c75-b77b-a703652d3524 # Image
+            handle: logoFooter
+            includeInCards: false
+            instructions: null
+            label: 'Logo Footer'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4f6efa1b-c80f-449a-8229-95f86923ceea
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: e7b68638-a535-4f57-be06-78e80278c01a
         userCondition: null
