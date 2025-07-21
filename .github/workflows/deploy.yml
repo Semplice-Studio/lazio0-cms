@@ -1,0 +1,37 @@
+name: Craft Deploy
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+  
+    - name: Deploy to server
+      uses: appleboy/ssh-action@v1.0.0
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.SSH_KEY }}
+        port: ${{ secrets.PORT }}
+        script: |
+          cd craftdemo # Cambia con il percorso del tuo sito
+          
+          # Pull delle modifiche dal repository
+          git pull origin main
+          
+          # Installa/aggiorna le dipendenze
+          composer update
+          
+          # Applica le configurazioni del progetto
+          php craft project-config/apply
