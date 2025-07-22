@@ -23,6 +23,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_KEY }}
+        passphrase: ${{ secrets.SSH_PASSPHRASE }}
         port: ${{ secrets.PORT }}
         script: |
           cd craftdemo # Cambia con il percorso del tuo sito
