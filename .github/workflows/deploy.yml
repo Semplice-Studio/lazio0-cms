@@ -31,9 +31,9 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.SSH_KEY }}# Usa passphrase solo se necessaria
-        passphrase: ${{ secrets.SSH_PASSPHRASE }}# Usa port solo se diverso da 22
-        port: ${{ secrets.PORT || 22 }}# Aggiungi timeout e debug
+        key: ${{ secrets.SSH_KEY }}
+        passphrase: ${{ secrets.SSH_PASSPHRASE }}
+        port: ${{ secrets.PORT || 22 }}
         timeout: 60s
         command_timeout: 30m
         debug: true
