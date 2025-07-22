@@ -20,29 +20,51 @@ jobs:
     - name: Debug secrets availability
       run: |
         echo "Checking if secrets are available..."
-        echo "HOST secret exists: ${{ secrets.HOST != '' }}"
-        echo "USERNAME secret exists: ${{ secrets.USERNAME != '' }}"
-        echo "SSH_KEY secret exists: ${{ secrets.SSH_KEY != '' }}"
-        echo "SSH_PASSPHRASE secret exists: ${{ secrets.SSH_PASSPHRASE != '' }}"
-        echo "PORT secret exists: ${{ secrets.PORT != '' }}"
-  
+        echo "HOST secret exists: ${{ secrets.HOST }}"
+        echo "USERNAME secret exists: ${{ secrets.USERNAME }}"
+        echo "SSH_KEY secret exists: ${{ secrets.SSH_KEY }}"
+        echo "SSH_PASSPHRASE secret exists: ${{ secrets.SSH_PASSPHRASE }}"
+        echo "PORT secret exists: ${{ secrets.PORT }}"
+
     - name: Deploy to server
       uses: appleboy/ssh-action@v1.0.0
       with:
-        debug: true
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.SSH_KEY }}
-        passphrase: ${{ secrets.SSH_PASSPHRASE }}
-        port: ${{ secrets.PORT }}
+        key: ${{ secrets.SSH_KEY }}# Usa passphrase solo se necessaria
+        passphrase: ${{ secrets.SSH_PASSPHRASE }}# Usa port solo se diverso da 22
+        port: ${{ secrets.PORT || 22 }}# Aggiungi timeout e debug
+        timeout: 60s
+        command_timeout: 30m
+        debug: true
         script: |
-          cd craftdemo # Cambia con il percorso del tuo sito
-          
-          # Pull delle modifiche dal repository
+          echo "=== DEBUG: Connected successfully to server ==="
+          whoami
+          pwd
+          echo "=== DEBUG: Checking if craftdemo directory exists ==="
+          if [ -d "craftdemo" ]; then
+            echo "Directory craftdemo exists"
+            cd craftdemo
+            pwd
+            ls -la
+          else
+            echo "ERROR: Directory craftdemo does not exist"
+            echo "Available directories:"
+            ls -la
+            exit 1
+          fi
+          echo "=== DEBUG: Checking git status ==="
+          git status
+          git remote -v
+          echo "=== DEBUG: Pulling changes ==="
           git pull origin main
-          
-          # Installa/aggiorna le dipendenze
-          composer update
-          
-          # Applica le configurazioni del progetto
+          echo "=== DEBUG: Checking composer ==="
+          which composer
+          composer --version
+          echo "=== DEBUG: Updating dependencies ==="
+          composer update --no-interaction --optimize-autoloader
+          echo "=== DEBUG: Checking Craft CLI ==="
+          which php
+          php --version
+          echo "=== DEBUG: Applying project config ==="
           php craft project-config/apply
