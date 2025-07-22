@@ -223,10 +223,6 @@ plugins:
     enabled: true
     licenseKey: WYYN0S2FWCW2W0NUDCUQ2I4R
     schemaVersion: 2.1.0
-  super-table:
-    edition: standard
-    enabled: true
-    schemaVersion: 4.0.0
   tablemaker:
     edition: standard
     enabled: true
