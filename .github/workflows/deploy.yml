@@ -16,10 +16,20 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
+
+    - name: Debug secrets availability
+      run: |
+        echo "Checking if secrets are available..."
+        echo "HOST secret exists: ${{ secrets.HOST != '' }}"
+        echo "USERNAME secret exists: ${{ secrets.USERNAME != '' }}"
+        echo "SSH_KEY secret exists: ${{ secrets.SSH_KEY != '' }}"
+        echo "SSH_PASSPHRASE secret exists: ${{ secrets.SSH_PASSPHRASE != '' }}"
+        echo "PORT secret exists: ${{ secrets.PORT != '' }}"
   
     - name: Deploy to server
       uses: appleboy/ssh-action@v1.0.0
       with:
+        debug: true
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_KEY }}
