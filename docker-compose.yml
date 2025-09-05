@@ -7,8 +7,6 @@ services:
       XDEBUG_CONFIG: client_host=host.docker.internal
     depends_on:
       - mysql
-    volumes:
-      - .:/app
     command: php craft queue/listen
   web:
     image: craftcms/nginx:8.2-dev
@@ -20,7 +18,7 @@ services:
     depends_on:
       - mysql
     volumes:
-      - .:/app
+      - ./certs:/certs:ro
   mysql:
     image: mysql:8.0
     ports:
