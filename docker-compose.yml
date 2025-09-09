@@ -13,7 +13,7 @@ services:
   web:
     image: craftcms/nginx:8.2-dev
     ports:
-      - 8443:8443
+      - 443:443
       - 8080:8080
     env_file: .env
     environment:
