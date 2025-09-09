@@ -13,7 +13,8 @@ services:
   web:
     image: craftcms/nginx:8.2-dev
     ports:
-      - 8080:8080
+      - 8443
+      - 8080
     env_file: .env
     environment:
       XDEBUG_CONFIG: client_host=host.docker.internal
@@ -21,8 +22,7 @@ services:
       - mysql
     volumes:
       - .:/app
-      #- ./certs/server.crt:/certs/server.crt:ro
-      #- ./certs/server.key:/certs/server.key:ro
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
     restart: unless-stopped
   mysql:
     image: mysql:8.0
