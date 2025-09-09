@@ -21,7 +21,9 @@ services:
       - mysql
     volumes:
       - .:/app
-      - ./certs:/certs:ro
+      - ./certs/server.crt:/certs/server.crt:ro
+      - ./certs/server.key:/certs/server.key:ro
+    restart: unless-stopped
   mysql:
     image: mysql:8.0
     ports:
